@@ -32,6 +32,7 @@
       this.scroll = new BScroll('.wrapper', {
 
       })
+      console.log(this.scroll);
     }
   }
 </script>
