@@ -51,8 +51,8 @@
 <style scoped>
   .params-size{
     margin-top: 20px;
-    margin-left: 25px;
-    margin-right: 15px;
+    /*margin-left: 25px;*/
+    /*margin-right: 15px;*/
     font-size: 14px;
     /*width: 100%;*/
     border-bottom: #f2f5f8 solid 3px;
@@ -60,12 +60,15 @@
 
   .size-table {
     width: 100%;
+    margin-left: 25px;
+    margin-right: 40px;
     border-collapse: collapse;
   }
 
   .params-size table tr {
     display: flex;
     height: 45px;
+    /*margin-right: 50px;*/
     border-bottom: solid 1px rgba(100,100,100,.1);
     justify-content:center;
     align-items:center;
@@ -78,8 +81,8 @@
   /* 下面是第二张表 */
   .params-info{
     /*margin-top: 20px;*/
-    margin-left: 25px;
-    margin-right: 15px;
+    /*margin-left: 25px;*/
+    /*margin-right: 15px;*/
     font-size: 14px;
     /*width: 100%;*/
     border-bottom: #f2f5f8 solid 3px;
